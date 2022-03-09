@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Slab&display=swap');
+
+.maindiv{
+    background-color:rgba(27, 26, 26, 0.863);
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.fontStyleone{
+    padding: 50px;
+    font-size: 4em;
+}
+
+.fontStyletwo{
+    background-color: white;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+#outlined-basic{
+    width: 20em;
+    font-family: 'Arvo', serif;
+}
+
+.buttondiv{
+    margin: 10px;
+}
+
+#contained-button{
+    width: 10em;
+    font-family: 'Arvo', serif;
+}
+
+@media screen and (max-width: 380px){
+    #outlined-basic{
+        width: 12em;
+    }  
+    .fontStyleone{
+        font-size: 2em;
+    }
+}
